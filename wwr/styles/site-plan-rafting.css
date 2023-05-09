@@ -4,8 +4,8 @@
     --accent1-color: #003459;
     --accent2-color: #00A7E1;
 
-    --heading-font: Arial;
-    --paragraph-font: Arial;
+    --heading-font: PT serif;
+    --paragraph-font: PT serif;
 
     --nav-backgroung-color: #3A506B;
     --nav-link-color: #FFFFFF;
@@ -14,8 +14,10 @@
 }
 
 body {
+    font-family: var(--heading-font);
     max-width: 960px;
     padding: 20px;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
