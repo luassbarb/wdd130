@@ -4,8 +4,8 @@
     --accent1-color: #003459;
     --accent2-color: #00A7E1;
 
-    --heading-font:'comma', serif;
-    --paragraph-font:'comma', serif;
+    --heading-font: Arial;
+    --paragraph-font: Arial;
 
     --nav-backgroung-color: #3A506B;
     --nav-link-color: #FFFFFF;
@@ -48,7 +48,7 @@ nav a {
     padding: 1rem;
 }
 
-nav a:link, nav a: visited {
+nav a:link, nav a:visited {
     color: var(--nav-link-color)
 }
 
