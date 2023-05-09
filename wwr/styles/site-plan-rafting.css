@@ -14,9 +14,8 @@
 }
 
 body {
-    footer: var(--paragraph-font);
-    main: var(--paragraph-font)
-    p: var(var(--paragraph-font))
+    max-width: 960px;
+    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
