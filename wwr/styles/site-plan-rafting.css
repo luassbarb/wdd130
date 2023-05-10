@@ -1,17 +1,19 @@
+@import url('https://fonts.google.com/');
 :root {
     --primary-color: #FFB20F;
     --secondary-color: #00171F;
     --accent1-color: #003459;
     --accent2-color: #00A7E1;
 
-    --heading-font: 'PT serif', serif;
-    --paragraph-font: 'PT serif', serif;
+    --heading-font: 'EB Garamond', serif;
+    --paragraph-font: 'EB Garamond', serif;
 
     --nav-backgroung-color: #3A506B;
     --nav-link-color: #FFFFFF;
     --nav-hover-link-color: #FFFFFF;
     --nav-hover-backgroung-color: #3A506B;
 }
+
 
 body {
     font-family: var(--paragraph-font);
