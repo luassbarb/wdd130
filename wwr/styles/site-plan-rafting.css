@@ -1,4 +1,7 @@
-@import url('https://fonts.google.com/');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Roboto+Slab&display=swap');
+</style>
+
 :root {
     --primary-color: #FFB20F;
     --secondary-color: #00171F;
