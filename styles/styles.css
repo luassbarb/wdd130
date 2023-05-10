@@ -1,10 +1,13 @@
-  
-    
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+}
     
     nav {
     background-color: #5BC0BE;
@@ -13,52 +16,55 @@
 
     nav a {
     color: black;
+    padding: 10px;
     display: block;
-    padding: 20px;
-    text-decoration: none;
     }
 
     h1 {
     color: #5BC0BE;
+    padding: .5rem;
     }
 
-    h2 {
-    color: #5BC0BE;
+    main {
+        max-width: 640px;
     }
 
-    img{
-    width: 150px;
-    height: auto;
-    border: 1px solid #5BC0BE;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    main img{
+        width: 150px;
+        height: auto;
+        border: 1px solid #5BC0BE;
+        padding: 2px;
+        box-shadow: 0 0 30px gray;
+        float: right;
+        margin: 0 0 1rem 1rem;
     }
 
     aside {
-    margin: 1em;
-    border: 1px solid rgba (0, 0, 0, 0.2); /* 1 */
-    padding: 1em;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
+        width: 20em;
+        text-align: center;
     }
 
     aside img {
-    width: 200px;
-    height: auto;
-    }
+        width: 200px;
+        height: auto;
+        }
 
-    p {
-    color: #3A506B;
-    padding: 0;
+    aside h2 {
+        position: absolute;
+        top: 65px;
+        height: 150px;
     }
 
     footer {
-    margin-top: 1em;
-    border-top: 1px solid #000;
-    text-align: center;
-    }
+        margin-top: 1em;
+        border-top: 1px solid #000;
+        text-align: center;
+        }
 
+    h2{
+    color: #5BC0BE;
+    }
+ 
 
 /* Class Selectors*/  
 
@@ -66,22 +72,10 @@
     margin: 1rem;
     border: 1px solid rgba (0,0,0,.1);
     padding: 1rem;
-    background-color: #ddd;
+    background-color: #eee;
     color: #000;
 }
 
-aside {
-    width: 20em;
-    text-align: center;
-    color: #000;
-}
-
-main img {
-    float: right;
-}
-
-aside h2 {
-position: absolute;
-top: 47px;
-left: 150px;
+.indent {
+    padding-left: 1rem;
 }
