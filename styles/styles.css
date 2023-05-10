@@ -41,8 +41,9 @@ body {
 
     aside {
         width: 20em;
-        text-align: center;
         position: relative;
+        text-align: center;
+    
     }
 
     aside img {
@@ -66,7 +67,6 @@ body {
     color: #5BC0BE;
     }
  
-
 /* Class Selectors*/  
 
 .box {
