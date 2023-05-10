@@ -30,7 +30,7 @@ body {
     }
 
     main img{
-        width: 150px;
+        width: 200px;
         height: auto;
         border: 1px solid #5BC0BE;
         padding: 2px;
@@ -41,20 +41,20 @@ body {
 
     aside {
         width: 20em;
-        position: relative;
         text-align: center;
+        position: relative;
     
     }
 
     aside img {
-        width: 200px;
+        width: 270px;
         height: auto;
         }
 
     aside h2 {
         position: absolute;
-        top: 65px;
-        height: 150px;
+        top: 67px;
+        left: 150px;
     }
 
     footer {
