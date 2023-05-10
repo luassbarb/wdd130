@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: var(--heading-font);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 
@@ -56,4 +56,5 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-backgroung-color);
+    /*THIS IS HOW TO MAKE A COMMENT*/
 }
