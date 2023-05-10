@@ -4,8 +4,8 @@
     --accent1-color: #003459;
     --accent2-color: #00A7E1;
 
-    --heading-font: PT serif;
-    --paragraph-font: PT serif;
+    --heading-font: 'PT serif', serif;
+    --paragraph-font: 'PT serif', serif;
 
     --nav-backgroung-color: #3A506B;
     --nav-link-color: #FFFFFF;
