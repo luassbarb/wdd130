@@ -9,65 +9,65 @@ body {
     font-family: 'Roboto Slab', serif;
 }
     
-    nav {
+nav {
     background-color: #5BC0BE;
     padding: 10px;
     }
 
-    nav a {
+nav a {
     color: black;
     padding: 10px;
     display: block;
     }
 
-    h1 {
+h1 {
     color: #5BC0BE;
     padding: .5rem;
     }
 
-    main {
+main {
         max-width: 640px;
     }
 
-    main img{
-        width: 200px;
-        height: auto;
-        border: 1px solid #5BC0BE;
-        padding: 2px;
-        box-shadow: 0 0 30px gray;
-        float: right;
-        margin: 0 0 1rem 1rem;
+main img{
+    width: 200px;
+    height: auto;
+    border: 1px solid #5BC0BE;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
     }
 
-    aside {
-        width: 20em;
-        text-align: center;
-        position: relative;
+aside {
+    width: 20em;
+    text-align: center;
+    position: relative;
     
     }
 
-    aside img {
-        width: 270px;
-        height: auto;
-        }
-
-    aside h2 {
-        position: absolute;
-        top: 67px;
-        left: 150px;
+aside img {
+    width: 270px;
+    height: auto;
     }
 
-    footer {
-        margin-top: 1em;
-        border-top: 1px solid #000;
-        text-align: center;
-        }
+aside h2 {
+    position: absolute;
+    top: 67px;
+    left: 150px;
+    }
 
-    h2{
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+    }
+
+h2{
     color: #5BC0BE;
     }
  
-/* Class Selectors */  
+/*Class Selectors */  
 
 .box {
     margin: 1rem;
