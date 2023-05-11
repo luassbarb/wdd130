@@ -1,17 +1,17 @@
 
 :root {
-    --primary-color: #FFB20F;
-    --secondary-color: #00171F;
-    --accent1-color: #003459;
-    --accent2-color: #00A7E1;
+    --primary-color: #243010;
+    --secondary-color: #87A330;
+    --accent1-color: #A1C349;
+    --accent2-color: #CAD593;
 
     --heading-font: 'Roboto Slab', serif-sans;
     --paragraph-font: 'Noto Sans', serif-sans;
 
-    --nav-backgroung-color: #3A506B;
-    --nav-link-color: #f3e0e0;
-    --nav-hover-link-color: #e1d5d5;
-    --nav-hover-backgroung-color: #3A506B;
+    --nav-backgroung-color: #2A3C24;
+    --nav-link-color: #87A330;
+    --nav-hover-link-color: #87A330;
+    --nav-hover-backgroung-color: #2A3C24;
 }
 
 
