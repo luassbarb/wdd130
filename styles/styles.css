@@ -10,7 +10,7 @@ body {
 }
 
 header,
-.grid-container,
+.grid,
 footer {
   max-width: 840px;
   margin: 0 auto;
@@ -48,7 +48,7 @@ main img {
   margin: 0 0 1rem 1rem;
 }
 
-.grid-container {
+.grid {
   display: flex;
   gap: 1rem;
 }
@@ -90,7 +90,7 @@ h2 {
   padding-left: 1rem;
 }
 
-.grid-container {
+.grid {
   display: flex;
 }
 
@@ -107,17 +107,17 @@ aside {
   position: relative;
 }
 
-.image-container {
+.image {
   position: relative;
   width: 200px;
 }
 
-.image-container img {
+.image img {
   width: 100%;
   height: auto;
 }
 
-.image-container h2 {
+.image h2 {
   position: absolute;
   top: 0;
   left: 0;
