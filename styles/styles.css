@@ -9,78 +9,6 @@ body {
   font-family: 'Roboto Slab', serif;
 }
 
-nav {
-  background-color: #5BC0BE;
-  padding: 10px;
-}
-
-nav a {
-  color: black;
-  padding: 10px;
-  display: block;
-}
-
-h1 {
-  color: #5BC0BE;
-  padding: .5rem;
-}
-
-main img {
-  width: 200px;
-  height: auto;
-  border: 1px solid #5BC0BE;
-  padding: 2px;
-  box-shadow: 0 0 30px gray;
-  float: right;
-  margin: 0 0 1rem 1rem;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 1rem;
-}
-
-aside {
-  width: 20rem;
-  position: relative;
-}
-
-aside img {
-  width: 270px;
-  height: auto;
-}
-
-aside h2 {
-  position: absolute;
-  top: 67px;
-  left: 150px;
-}
-
-footer {
-  margin-top: 1em;
-  border-top: 1px solid #000;
-  text-align: center;
-}
-
-h2 {
-  color: #5BC0BE;
-}
-
-/* Class Selectors */
-
-.box {
-  margin: 1rem;
-  border: 1px solid rgba(0, 0, 0, .1);
-  padding: 1rem;
-  background-color: #eee;
-  color: #000;
-}
-
-.indent {
-  padding-left: 1rem;
-}
-
 header,
 .grid-container,
 footer {
@@ -105,10 +33,97 @@ nav a {
   color: #fff;
 }
 
-main {
-  margin: 1rem;
+h1 {
+  color: #5BC0BE;
+  padding: .5rem;
+  border-bottom: 1px solid #000;
+}
+
+main img {
+  width: 200px;
+  height: auto;
+  border: 1px solid #5BC0BE;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+  margin: 0 0 1rem 1rem;
+}
+
+.grid-container {
+  display: flex;
+  gap: 1rem;
 }
 
 aside {
+  width: 20rem;
+}
+
+aside img {
+  width: 270px;
+  height: auto;
+}
+
+aside h2 {
+  position: absolute;
+  top: 67px;
+  left: 150px;
+}
+
+footer {
+  margin-top: 1em;
+  border-top: 1px solid #000;
+  text-align: center;
+}
+
+h2 {
+  color: #5BC0BE;
+}
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, .1);
+  padding: 1rem;
+  background-color: #eee;
+  color: #000;
+}
+
+.indent {
+  padding-left: 1rem;
+}
+
+.grid-container {
+  display: flex;
+}
+
+aside {
+  order: 1;
+}
+
+main {
+  order: 2;
+}
+
+aside {
+  width: 20rem;
   position: relative;
 }
+
+.image-container {
+  position: relative;
+  width: 200px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.image-container h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0.5rem;
+  color: #5BC0BE;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
