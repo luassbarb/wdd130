@@ -9,50 +9,57 @@
   <meta name="description" content="Quiz with questions about HTML and CSS.">
   <meta name="author" content="Luana Barbosa Quiz">
   <link rel="stylesheet" href="styles/quiz.css">
-
 </head>
+
 <body>
-<header>
+  <header>
     <h1>Basic HTML and CSS Quiz</h1>
-</header>
+  </header>
 
-<main>
+  <main>
     <form>
-        <fieldset>
-            <div class="form-item collumn2">
-                <label for="geedback">1. What does the acronym CSS stand for?</label>
-                <textarea id="feedback" name="feedback" rows="4" placeholder="Exemples, Exemples, Exemples, Exemples"></textarea>
-            </div>
-            <br/>
-
-            <div class="form-item collumn2">
-                <label for="geedback">2. How are id and class attributes selected in CSS?</label>
-                <textarea id="feedback" name="feedback" rows="4" placeholder="Exemples, Exemples, Exemples, Exemples"></textarea>
-            </div>
-            <br/>
-
-        </fieldset>
-
-        <fieldset>
-            <legend>Questions</legend>
-            <div class="form-item collumn1"></div>
-            <label for="Choose One ...">3. Which of the following is a valid CSS comment?</label>
-                <option value="" select disabled>Choose One ...</option>
-            </select>
+      <fieldset>
+        <div class="form-item column2">
+          <label for="q1">1. What does the acronym CSS stand for?</label>
+          <input type="text" id="q1" name="q1" required>
         </div>
-            </fieldset>
+        <br/>
 
-            <fieldset>
-                <div class="form-item collumn2">
-                    <label for="geedback">4. What is the bottom margin given this declaration?</label>
-                    <textarea id="feedback" name="feedback" rows="4" placeholder="Margin: 10px 5 px 15 px;"></textarea>
-                </div>
-                <br/>
-            </form>
-            <button type="submit">Submit Quiz</button>
-            </main>
-            <footer>
-                <p>&copy; 2024 | HTML Form - User Poll Activity | Luana Barbosa</p>
-            </footer>
-            </body>
-            </html>
+        <div class="form-item column2">
+          <label for="q2">2. How are id and class attributes selected in CSS?</label>
+          <textarea id="q2" name="q2" rows="4" required></textarea>
+        </div>
+        <br/>
+      </fieldset>
+
+      <fieldset>
+        <legend>Questions</legend>
+        <div class="form-item column1">
+          <label for="q3">3. Which of the following is a valid CSS comment?</label>
+          <select id="q3" name="q3" required>
+            <option value="" selected disabled>Choose One...</option>
+            <option value="/* This is a valid comment */">/* This is a valid comment */</option>
+            <option value="<!-- This is a valid comment -->"><!-- This is a valid comment --></option>
+            <option value="// This is a valid comment">// This is a valid comment</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="form-item column2">
+          <label for="q4">4. What is the bottom margin given this declaration?</label>
+          <textarea id="q4" name="q4" rows="4" required></textarea>
+        </div>
+        <br/>
+      </fieldset>
+
+      <button type="submit">Submit Quiz</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 | HTML Form - Quiz Activity | Luana Barbosa</p>
+  </footer>
+</body>
+
+</html>
