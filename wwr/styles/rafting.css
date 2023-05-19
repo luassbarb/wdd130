@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Roboto+Slab&display=swap');
+
 :root {
   --heading-font : 'Roboto Slab',serif-sans;
   --paragraph-font : 'Noto Sans',serif-sans;
+  --primary-color: #243010;
+  --secondary-color: #87A330;
+  
   }
   body {
   background-color : #243010;
