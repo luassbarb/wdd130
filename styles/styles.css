@@ -17,7 +17,7 @@ footer {
 }
 
 nav {
-  background-color: #5BC0BE;
+  background-color: steelblue;
   padding: 1rem;
   display: flex;
   justify-content: space-evenly;
@@ -34,7 +34,7 @@ nav a {
 }
 
 h1 {
-  color: #5BC0BE;
+  color: steelblue;
   padding: .5rem;
   border-bottom: 1px solid #000;
 }
@@ -42,14 +42,15 @@ h1 {
 main img {
   width: 200px;
   height: auto;
-  border: 1px solid #5BC0BE;
+  border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
   margin: 0 0 1rem 1rem;
 }
 
 .grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: 20rem 1fr;
   gap: 1rem;
 }
 
@@ -123,7 +124,7 @@ aside {
   left: 0;
   margin: 0;
   padding: 0.5rem;
-  color: #5BC0BE;
+  color: steelblue;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
