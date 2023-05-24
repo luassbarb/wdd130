@@ -180,16 +180,17 @@
 /* for Contact Us page */
 
 main {
-max-width: 800px; /* Adjust the max-width as per your preference */
+max-width: 1000px; /* Adjust the max-width as per your preference */
 margin: 0 auto;
 text-align: center;
 background-color: #87A330;
-padding: 20px;
+padding: 50px;
 }
 
 h1 {
   color: var(--primary-color);
   margin-bottom: 20px;
+  font-size: 55px;
 }
 
 address {
@@ -297,4 +298,19 @@ main p a {
 main p a:hover {
   color: #A1C349;
   text-decoration: underline;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #243010;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #243010;
 }
