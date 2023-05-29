@@ -314,3 +314,78 @@ main p a:hover {
 .cta-btn:hover {
   background-color: #243010;
 }
+
+.hero {
+  position: relative;
+  height: 400px;
+  background-image: url('images/rafting-0.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Estilos para a seção do formulário de inscrição na newsletter */
+.newsletter {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.newsletter h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.newsletter form input,
+.newsletter form button {
+  margin-top: 10px;
+}
+
+/* Estilos para a seção de layout de grid */
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-item h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.grid-item p {
+  margin-top: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.hero-content p {
+  text-align: center;
+}
+
