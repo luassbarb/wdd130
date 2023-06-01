@@ -59,7 +59,7 @@
   display : block;
   float : right;
   margin : 0 0 10px 10px;
-  max-width : 100px;
+  max-width : 150px;
   height : auto;
   }
   article p {
@@ -72,6 +72,8 @@
   section h2 {
   text-align : center;
   --paragraph-font : 'Noto Sans',serif-sans;
+  font-size: 20px;
+  color: #CAD593;
   }
   section p {
   text-align : justify;
